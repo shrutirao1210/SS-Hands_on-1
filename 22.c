@@ -20,3 +20,7 @@ int main(int argc, char *argv[])
     sprintf(buf, "written by process %d \n", getpid());
     write(fd, &buf, sizeof(buf));
 }
+/*
+written by process 3241 
+written by process 3242
+*/
