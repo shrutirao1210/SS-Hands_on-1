@@ -23,7 +23,7 @@ int main()
 
         // to create zombie we have create situation where child process finish execution and wait for parent to remove its processid from process table
         // for that we are using sleep() fun call in parent;
-        // to check use zombie process use ps -l or top -b -n1 -u $USER cmd in terminal after child is exec............................................uted and
+        // to check use zombie process use ps -l or top -b -n1 -u $USER cmd in terminal after child is executed
 
         sleep(10);
         printf("inside parent pid= %d\n", getpid());
